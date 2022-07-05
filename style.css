@@ -3,6 +3,17 @@ ul{
 }
 
 
+body {
+  background-color: #FAFAFA;
+
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.vista-text p{
+  font-size: 20px;
+}
+
 ul li{
     display: inline-block;
     padding: 5px 10px;
@@ -10,6 +21,71 @@ ul li{
     padding-left: 50px;
 
 }
+
+.buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+.play {
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+}
+
+.vista {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.vista-image {
+  width: 50%;
+
+}
+
+.vista-img {
+  width: 85%;
+}
+
+.vista-text {
+  width: 50%;
+}
+
+.box-shadow {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.search-btn {
+  background-color: #2549D3;
+  color: #FAFAFA;
+  padding: 5px;
+  border-radius: 5px;
+  height: 40%;
+  margin: auto 0;
+  width: 10%;
+  border: none;
+  padding: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.blue {
+  color: #0F298B;
+  font-weight: bolder;
+}
+
+.gray {
+  color: #535353;
+}
+
 
 #list{
     box-sizing: border-box;
@@ -30,8 +106,8 @@ div h1{
 
 img{
 float: right;
-height: 50vh;
-padding-bottom: 100px;
+height: 85%;
+width: 35%;
 }
 
 
@@ -133,6 +209,10 @@ html {
     }
   }
 
+  .ft{
+    display: flex;
+  }
+  
 #ft h3{
     text-align: center;
     font-size: 40px;
